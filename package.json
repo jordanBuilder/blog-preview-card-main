@@ -4,7 +4,9 @@
   "description": "![Design preview for the Blog preview card coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"tailwindcss build style.cs -o main.css",
+    "watch": "tailwindcss build style.css -o main.css --watch"
   },
   "keywords": [],
   "author": "",
